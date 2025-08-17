@@ -1,5 +1,5 @@
 {
-    "name": "bdbulksms/laravel-sms-package-for-bdbulksms.net-SMS-API",
+    "name": "bdbulksms/laravel-sms-package-for-bdbulksms.net-sms-api",
     "description": "Laravel SMS package for bdbulksms.net API with queue, events, logging, and scheduler",
     "type": "library",
     "license": "MIT",
