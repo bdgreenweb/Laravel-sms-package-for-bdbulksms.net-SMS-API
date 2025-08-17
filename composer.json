@@ -1,0 +1,21 @@
+{
+    "name": "bdbulksms/laravel-sms",
+    "description": "Laravel SMS package for bdbulksms.net API with queue, events, logging, and scheduler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BDBulkSMS\\LaravelSms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BDBulkSMS\\LaravelSms\\SmsServiceProvider"
+            ],
+            "aliases": {
+                "Sms": "BDBulkSMS\\LaravelSms\\Facades\\Sms"
+            }
+        }
+    }
+}
