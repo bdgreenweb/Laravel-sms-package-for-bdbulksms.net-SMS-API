@@ -49,6 +49,9 @@ Sms::queue([ ['to'=>'+8801xxxxxxx','message'=>'Hello Queue'] ]);
 2. Run migrations: `php artisan queue:table && php artisan migrate`
 3. Start queue worker: `php artisan queue:work`
 
+## .env setup
+Login SMS Portal From https://sms.greenweb.com.bd/ and visit developer zone to generate token.
+
 ## License
 
 MIT
